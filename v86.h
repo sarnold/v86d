@@ -19,6 +19,8 @@
 
 struct completion;
 
+typedef struct { int counter; } atomic_t;
+
 #include <video/uvesafb.h>
 
 //#define ulog(args...)	do {} while (0)
